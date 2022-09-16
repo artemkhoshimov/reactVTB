@@ -1,0 +1,18 @@
+.mainFrame {
+    top: 123px;
+    left: 53px;
+    width: 1291px;
+    height: 736px;
+    display: flex;
+    position: absolute;
+    box-sizing: content-box;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    background-color: var(--dl-color-neutral-neutral00);
+  }
+  
+  

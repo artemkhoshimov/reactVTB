@@ -1,0 +1,71 @@
+.contentFrame {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: column;
+  }
+  .widgetsServisecard {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    box-sizing: border-box;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+  }
+  .contentLeftImage {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 16px;
+    border-radius: 12px;
+    margin-bottom: 0;
+    background-size: cover;
+    background-image: url("/public/playground_assets/Frame1321315659.png");
+  }
+  .contentRight {
+    width: 216px;
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: column;
+  }
+  .contentText {
+    color: var(--dl-color-neutral-neutral90);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: 20px;
+    margin-right: 0;
+    margin-bottom: 6px;
+  }
+  .textQR {
+    color: var(--dl-color-neutral-neutral50);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: 20px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }

@@ -1,0 +1,28 @@
+.mainFrameBody {
+    width: 785px;
+    height: 793px;
+    display: flex;
+    padding: 0 28px;
+    position: relative;
+    max-width: 785px;
+    box-sizing: border-box;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: column;
+    top: 63px;
+    left: 115px;
+}
+
+.text {
+    color: var(--dl-color-lightweb_text-primary);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: 24px;
+    margin-right: 0;
+    margin-bottom: 8px;    
+  }

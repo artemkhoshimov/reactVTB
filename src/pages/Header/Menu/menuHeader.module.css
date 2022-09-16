@@ -1,0 +1,41 @@
+.mainMenuFrame {
+    width: 762px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 0px 0px 0px 0px;
+    justify-content: center;
+  }
+  .menuTextFrame {
+    height: 32px;
+    display: flex;
+    padding: 3px 12px 5px 12px;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 24px;
+    border-radius: 16px;
+    margin-bottom: 0;
+    justify-content: center;
+  }
+  .textMenu {
+    color: black;
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'VTB Group UI';
+    line-height: 24px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+ 
+  

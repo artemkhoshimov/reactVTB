@@ -1,0 +1,56 @@
+.mainIcon {
+  width: 91px;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: column;
+}
+.iconSlave {
+  display: flex;
+  padding: 0 0 4px 0;
+  position: relative;
+  box-sizing: border-box;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: column;
+}
+.logotypeBack {
+  width: 59px;
+  height: 20px;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+}
+.logotypeFront1Part {
+  top: 0px;
+  left: 0px;
+  width: 18px;
+  height: 11px;
+  position: absolute;
+  box-sizing: border-box;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.logotypeFront2Part {
+  top: 4.00005578994751px;
+  left: 21.013761520385742px;
+  width: 38px;
+  height: 16px;
+  position: absolute;
+  box-sizing: border-box;
+  margin-right: 0;
+  margin-bottom: 0;
+}
