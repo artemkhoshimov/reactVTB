@@ -1,0 +1,86 @@
+.sideBarFrame {
+    width: 272px;
+    height: 383px;
+    top: 46px;
+    left: 20px;
+    display: flex;
+    padding: 16px;
+    position: relative;
+    box-shadow: 0px 4px 8px 0px rgba(137, 150, 168, 0.4000000059604645);
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 306px;
+    border-radius: 8px;
+    margin-bottom: 0;
+    background-color: #FFFFFF;
+}
+
+.menuSideBar {
+    top: 16px;
+    left: 0px;
+    width: 342px;
+    height: 110px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: column;
+}
+
+.choicePage {
+    width: 342px;
+    height: 53px;
+    display: flex;
+    padding: 0 16px;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 0;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.choiceWithoutIMG {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    box-sizing: border-box;
+    margin-right: 12px;
+    margin-bottom: 0;
+    background-image: url("/public/playground_assets/outlinetasksoutline3239-9yys.svg");
+}
+
+.choiceWithIMG {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    box-sizing: border-box;
+    margin-right: 12px;
+    margin-bottom: 0;
+    background-image: url("/public/playground_assets/outlinedocsoutline3239-zgu.svg");
+}
+
+.choiceText {
+    width: 153px;
+    display: flex;
+    padding: 4px 0 0 0;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: column;
+    font-style: normal;
+}

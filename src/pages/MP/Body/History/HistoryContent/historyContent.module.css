@@ -1,0 +1,19 @@
+.historyContentText {
+    color: rgba(0, 0, 0, 1);
+    width: 409px;
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Light;
+    text-align: left;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    margin-bottom: 3px;
+    font-style: normal;
+  }
+  .historyContentText:before{
+    content: '\2022   ';
+    color: blue ;
+  }

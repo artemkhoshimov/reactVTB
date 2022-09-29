@@ -1,0 +1,13 @@
+.newsContentImage {
+    width: 158px;
+    height: 139px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 0px 0px 0px 0px;
+    background-size: cover;
+    background-image: url("/public/playground_assets2/2230443e-245e-4e2e-9353-a6232f26873b-fqsr5-200h.undefined");
+  }

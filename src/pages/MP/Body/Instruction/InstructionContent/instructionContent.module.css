@@ -1,0 +1,35 @@
+.instructionContentFrame {
+    width: 729px;
+    display: flex;
+    padding: 0 10px;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    justify-content: space-between;
+  }
+  .instructionContentText {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    align-self: auto;
+    text-align: center;
+    line-height: 20px;
+    font-style: normal;
+  }
+  .instructionImagecontainer {
+    width: 180px;
+    height: 139px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 0px 0px 0px 0px;
+    background-size: cover;
+    background-image: url("/public/playground_assets2/5a9ee5a7-7dd8-4b2e-b65f-056894b53e6e-k07b-200h.undefined");
+  }

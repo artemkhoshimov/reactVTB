@@ -1,23 +1,18 @@
 import React from 'react'
-import MainPage from './pages/MP/MainPage'
 import styles from './mainFrame.module.css'
 import Header from './pages/Header/Header'
+import BodyMP from './pages/BodyMP'
 
-const MainFrame = (props) => {
-  var isShow = false
-  function changeRoles() {
-    isShow = isShow ? false : true
-  }
 
-  return (
+const MainFrame = (props) =>  (
     <div>
       <div className={styles.fullPageFrame}>
-        <button onClick={changeRoles}>change role</button>
+        <button>change role</button>
         <Header></Header>
-        <MainPage></MainPage>
+        <BodyMP></BodyMP>
       </div>
     </div>
   )
-}
+
 
 export default MainFrame

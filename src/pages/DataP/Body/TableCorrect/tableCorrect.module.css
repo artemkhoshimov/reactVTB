@@ -1,0 +1,20 @@
+.tableContentHeader {
+    border-bottom: solid 3px black;
+    border-right: solid 1px black;
+    background: #0062FF;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.tableContentBody {
+    border-bottom: solid 0.5px black;
+    border-right: solid 1px black;
+    color: black;
+    text-align: center;
+}
+
+.table {
+    border-spacing: 0;
+    border: 0.1px solid black;
+}

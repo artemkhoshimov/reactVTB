@@ -1,0 +1,93 @@
+.mainContentFrame {
+    box-sizing: border-box;
+    width: 930px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    position: absolute;
+    height: 90%;
+    left: 332px;
+    right: 72px;
+    top: 46px;
+    background: #FFFFFF;
+    border: 1px solid #E2E5E9;
+    box-shadow: 0px 4px 8px rgba(138, 150, 168, 0.4), 0px -2px 4px rgba(138, 150, 168, 0.08);
+    border-radius: 8px;
+}
+
+.headerTextFrame {
+    position: absolute;
+    width: 304px;
+    height: 28px;
+    left: 24px;
+    top: 24px;
+    font-family: 'VTB Group UI';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #29313D;
+}
+
+.dateTextFrame {
+    position: absolute;
+    width: 304px;
+    height: 28px;
+    left: 38px;
+    top: 56px;
+    font-family: 'VTB Group UI';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #29313D;
+}
+
+.buttonsFrame {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    gap: 10px;
+    position: absolute;
+    width: 90%;
+    height: 57px;
+    left: 24px;
+    top: 82px;
+}
+
+.buttons {
+    width: 122px;
+    height: 48px;
+    background: #5482de;
+    border-radius: 10px;
+    border-color: #D3D3D3;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    transition: ease background-color 550ms;
+}
+
+.buttons:hover {
+    background: #0062FF;
+}
+
+
+
+.tableCorrect {
+    position: absolute;
+    width: 98%;
+    height: 75%;
+    top: 159px;
+    background: #FFFFFF;
+    border-width: 1px;
+}

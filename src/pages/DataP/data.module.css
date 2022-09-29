@@ -1,8 +1,8 @@
-.mainFrame {
-    top: 123px;
+.dataFrame {
+    top: 128px;
     left: 53px;
     width: 1291px;
-    height: 100%;
+    height: 736px;
     display: flex;
     position: absolute;
     box-sizing: content-box;
@@ -12,7 +12,7 @@
     margin-right: 0;
     border-radius: 0px 0px 0px 0px;
     margin-bottom: 0;
-    background-color: rgba(242, 239, 239, 0.2);
+    background-color: rgba(242, 239, 239, 1);
   }
   
   
