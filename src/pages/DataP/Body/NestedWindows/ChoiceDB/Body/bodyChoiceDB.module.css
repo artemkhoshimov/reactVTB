@@ -1,0 +1,32 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 500px;
+}
+
+.table {
+    display: block;
+    height: 100%;
+    width: 400px;
+    border-collapse: collapse;
+    border: 0.1px solid black;
+    overflow-y: auto;
+    overflow-x:hidden;
+}
+
+.td {
+    border-right: 0.1px solid black;
+    width: 300px;
+    text-align: center;
+}
+
+.tr {
+    border-bottom: 0.1px solid black;
+    text-align: center;
+}
+
+.checkbox {
+    transform: scale(1.5);
+    padding: auto;
+}

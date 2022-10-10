@@ -6,15 +6,12 @@ import SideBar from './SideBar/SideBar'
 const Data = (props) => {
   return (
     <div>
-      <div
-        className={style.dataFrame}
-      >
-      <SideBar/>
-      <BodyCorr/>
+      <div className={style.dataFrame}>
+        <SideBar />
+        <BodyCorr />
       </div>
     </div>
   )
 }
-
 
 export default Data

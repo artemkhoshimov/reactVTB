@@ -8,8 +8,8 @@ const BodyCorr = (props) => {
     return (
         <div>
             <Routes>
-                <Route exact path='/withCorrect' element={<BodyWithCorrect />} />
-                <Route exact path='/withoutCorrect' element={<BodyWithoutCorrect />} />
+                <Route exact path='/withCorrect/*' element={<BodyWithCorrect />} />
+                <Route exact path='/withoutCorrect/*' element={<BodyWithoutCorrect />} />
                 <Route exact path='/' element={<BodyWithoutCorrect />} />
             </Routes>
         </div>

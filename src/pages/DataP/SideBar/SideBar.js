@@ -12,7 +12,7 @@ const SideBar = (props) => {
                 <div className={style.choicePage}
                 >
                     <div className={style.choiceWithoutIMG} />
-                    <a href="/data/withoutCorrect" style={{textDecoration:'none',color:'black'}} className={style.choiceText}
+                    <a href="/data/withoutCorrect/" style={{textDecoration:'none',color:'black'}} className={style.choiceText}
                     >
                         <span>Без корректировок</span>
                     </a>
@@ -20,7 +20,7 @@ const SideBar = (props) => {
                 <div className={style.choicePage}
                 >
                     <div className={style.choiceWithIMG} />
-                    <a href="/data/withCorrect" style={{textDecoration:'none',color:'black'}} className={style.choiceText}
+                    <a href="/data/withCorrect/" style={{textDecoration:'none',color:'black'}} className={style.choiceText}
                     >
                         <span>С корректировками</span>
                     </a>
